@@ -9,22 +9,22 @@ const Main = () => {
           <img
             src="/desktop/image-woman-in-videocall.jpg"
             alt="woman-in-ideocall"
-            className="w-full rounded-lg"
+            className="w-full rounded-lg lg:w-64"
           />
           <img
             src="/desktop/image-women-videochatting.jpg"
             alt="women-videochatting"
-            className="w-full rounded-lg"
+            className="w-full rounded-lg lg:w-64"
           />
           <img
             src="/desktop/image-men-in-meeting.jpg"
             alt="men-in-meeting"
-            className="w-full rounded-lg"
+            className="w-full rounded-lg lg:w-64"
           />
           <img
             src="/desktop/image-man-texting.jpg"
             alt="man-texting"
-            className="w-full rounded-lg"
+            className="w-full rounded-lg lg:w-64"
           />
         </div>
         <div className="  text-center w-7/10">
