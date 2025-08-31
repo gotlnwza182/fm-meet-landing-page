@@ -7,22 +7,22 @@ const Main = () => {
       <div className="w-full flex flex-col items-center justify-center mt-16">
         <div className="grid grid-cols-2 gap-4 mb-16 md:grid-cols-4">
           <img
-            src="/src/assets/desktop/image-woman-in-videocall.jpg"
+            src="/desktop/image-woman-in-videocall.jpg"
             alt="woman-in-ideocall"
             className="w-full rounded-lg"
           />
           <img
-            src="/src/assets/desktop/image-women-videochatting.jpg"
+            src="/desktop/image-women-videochatting.jpg"
             alt="women-videochatting"
             className="w-full rounded-lg"
           />
           <img
-            src="/src/assets/desktop/image-men-in-meeting.jpg"
+            src="/desktop/image-men-in-meeting.jpg"
             alt="men-in-meeting"
             className="w-full rounded-lg"
           />
           <img
-            src="/src/assets/desktop/image-man-texting.jpg"
+            src="/desktop/image-man-texting.jpg"
             alt="man-texting"
             className="w-full rounded-lg"
           />

@@ -9,12 +9,12 @@ const Footer = () => {
       </div>
       <div className="relative py-16 px-8 text-white w-full">
         <img
-          src="/src/assets/tablet/image-footer.jpg"
+          src="/tablet/image-footer.jpg"
           alt="background"
           className="absolute inset-0 w-full h-full object-cover lg:hidden"
         />
         <img
-          src="/src/assets/desktop/image-footer.jpg"
+          src="/desktop/image-footer.jpg"
           alt="background"
           className="absolute inset-0 w-full h-full object-cover hidden lg:block "
         />

@@ -5,7 +5,7 @@ const Hero = () => {
     <section className="w-full flex flex-col items-center justify-center mb-8 md:mb-16  ">
       <div className="overflow-hidden mt-16 mb-12 w-full center md:mb-18">
         <img
-          src="/src/assets/tablet/image-hero.png"
+          src="/tablet/image-hero.png"
           alt="hero-tablet"
           className="w-full scale-x-115 md:scale-x-107 lg:hidden"
         />
@@ -13,7 +13,7 @@ const Hero = () => {
       <div className=" overflow-hidden lg:h-90 text-center w-8/10 md:w-1/2 flex justify-center items-center  lg:w-full lg:gap-8">
         <div className=" w-82">
           <img
-            src="/src/assets/desktop/image-hero-left.png"
+            src="/desktop/image-hero-left.png"
             alt="image-hero-left"
             className="hidden lg:block -translate-x-26 -translate-y-8 overflow-hidden"
           />
@@ -38,7 +38,7 @@ const Hero = () => {
         </div>
         <div className=" w-82 ">
           <img
-            src="/src/assets/desktop/image-hero-right.png"
+            src="/desktop/image-hero-right.png"
             alt="image-hero-right"
             className="hidden lg:block translate-x-26 translate-y-8  overflow-hidden"
           />
