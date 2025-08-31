@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;2,300..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-red-hat-display: "Red Hat Display", sans-serif;
+
+  --color-cyan-300: #8fe3f9;
+  --color-cyan-600: #4d96a9;
+
+  --color-purple-300: #d9b8ff;
+  --color-purple-600: #855fb1;
+
+  --color-slate-300: #d1d1df;
+  --color-slate-600: #87879d;
+  --color-slate-900: #28283d;
+
+  --color-white: #fafafa;
+
+  --text-desktop-1: 64px/110% var(--font-red-hat-display);
+  --text-desktop-2: 40px/110% var(--font-red-hat-display);
+  --text-desktop-3: 16px/110% var(--font-red-hat-display);
+  --text-desktop-4: 18px/110% var(--font-red-hat-display);
+  --text-desktop-5: 16px/150% var(--font-red-hat-display);
+
+  --text-tablet-1: 48px/110% var(--font-red-hat-display);
+  --text-tablet-2: 36px/110% var(--font-red-hat-display);
+  --text-tablet-3: 14px/110% var(--font-red-hat-display);
+  --text-tablet-4: 16px/150% var(--font-red-hat-display);
+
+  --text-mobile-1: 40px/110% var(--font-red-hat-display);
+  --text-mobile-2: 32px/110% var(--font-red-hat-display);
+  --text-mobile-3: 12px/110% var(--font-red-hat-display);
+}
+
+@utility text-desktop-1 {
+  font: var(--text-desktop-1);
+  font-weight: 900;
+}
+@utility text-desktop-2 {
+  font: var(--text-desktop-2);
+  font-weight: 900;
+}
+@utility text-desktop-3 {
+  font: var(--text-desktop-3);
+  font-weight: 900;
+  letter-spacing: 4px;
+}
+@utility text-desktop-4 {
+  font: var(--text-desktop-4);
+  font-weight: 500;
+}
+@utility text-desktop-5 {
+  font: var(--text-desktop-5);
+  font-weight: 900;
+}
+
+@utility text-tablet-1 {
+  font: var(--text-tablet-1);
+  font-weight: 900;
+}
+@utility text-tablet-2 {
+  font: var(--text-tablet-2);
+  font-weight: 900;
+}
+@utility text-tablet-3 {
+  font: var(--text-tablet-3);
+  font-weight: 900;
+}
+@utility text-tablet-4 {
+  font: var(--text-tablet-4);
+  font-weight: 500;
+}
+
+@utility text-mobile-1 {
+  font: var(--text-mobile-1);
+  font-weight: 900;
+}
+@utility text-mobile-2 {
+  font: var(--text-mobile-2);
+  font-weight: 900;
+}
+@utility text-mobile-3 {
+  font: var(--text-mobile-3);
+  font-weight: 900;
+}
+
+@utility text-content {
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 500;
+  font-family: var(--font-red-hat-display);
+  @media (min-width: 64rem) {
+    font-size: 18px;
+    line-height: 110%;
+  }
+}
+
+@utility header-2 {
+  font-size: 32px;
+  line-height: 110%;
+  font-weight: 900;
+  font-family: var(--font-red-hat-display);
+  /* tablet */
+  @media (min-width: 48rem) {
+    font-size: 36px;
+  }
+  /* desktop */
+  @media (min-width: 64rem) {
+    font-size: 40px;
+  }
+}
